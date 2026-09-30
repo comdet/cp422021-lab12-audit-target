@@ -1,0 +1,20 @@
+<!-- ===========================================================================
+     AndroidManifest-excerpt.xml
+     ยกมาจากไฟล์ android/app/src/main/AndroidManifest.xml ของโปรเจคที่ต้องตรวจ
+     ตัดเฉพาะส่วนที่เกี่ยวกับสิทธิ์ · ส่วนอื่นของไฟล์ไม่เกี่ยวกับงานตรวจนี้
+     =========================================================================== -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:label="food_order"
+        android:icon="@mipmap/ic_launcher">
+        <!-- ... ส่วนที่เหลือของไฟล์ ไม่เกี่ยวกับงานตรวจนี้ ... -->
+    </application>
+</manifest>
